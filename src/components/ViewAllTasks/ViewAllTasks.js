@@ -2,10 +2,10 @@ import React, {useState} from 'react';
 import { useHistory } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import AddIcon from '@mui/icons-material/Add';
-import { NoCards } from '../NoCards/NoCards';
+import { NoCards } from '../NoTasks/NoTasks';
 
 
-export const ViewAllCards = (props) => {
+export const ViewAllCards = () => {
 
     const history = useHistory();
 
